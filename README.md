@@ -1,49 +1,106 @@
-# Milk Quality Prediction using SVM, Decision Tree, and Random Forest
-## Description
-This project focuses on predicting milk quality using Support Vector Machines (SVM), Decision Trees, and Random Forest algorithms. The goal is to classify milk quality based on various features, providing a tool for quality control in the dairy industry.
+# MilkGuard — AI-Powered Milk Quality & Adulteration Detection
 
-## Key Features
-Classification models including SVM, Decision Tree, and Random Forest.
-Evaluation of model performance with accuracy metrics.
-Visualization of classification results and feature importance.
+> **Published research · Featured in Gujarat Samachar (newspaper) · Food safety impact**
 
-## Installation
-Clone the Repository:
-```
-git clone https://github.com/yourusername/Milk-Quality-Prediction.git
-```
-Navigate to Project Directory:
-```
-cd Milk-Quality-Prediction
-```
-Install Dependencies:
-```
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=flat-square)
+![Published](https://img.shields.io/badge/Published-EBSCO-green?style=flat-square)
+![Press](https://img.shields.io/badge/Press-Gujarat%20Samachar-red?style=flat-square)
+
+---
+
+## Overview
+
+According to FSSAI, **68% of milk in India is adulterated**. Lab-based quality testing is slow, expensive, and inaccessible at the rural dairy level.
+
+MilkGuard is an ML-based classification system that detects milk quality and adulteration — analyzing fat content, color, odor, and other physicochemical properties — in real time, without laboratory equipment. Built under the guidance of **Prof. Debabrata Swain, Pandit Deendayal Energy University**.
+
+This project was **published (EBSCO)** and covered by **Gujarat Samachar**, one of India's largest Gujarati-language newspapers, for its potential impact on food safety.
+
+---
+
+## Press Coverage
+
+> *"AI model developed by students can detect milk quality and adulteration — Computer Science Department students Drashti Bhavsar and Yash Jobanputra have built an AI device that rapidly checks milk quality, adulteration, fat, color, and odor properties."*
+> — **Gujarat Samachar** (Ahmedabad edition)
+
+![Gujarat Samachar Coverage](./press_coverage.jpg)
+
+---
+
+## Results
+
+| Model | Accuracy |
+|---|---|
+| Random Forest | Best performer |
+| Support Vector Machine (SVM) | Competitive |
+| Decision Tree | Baseline |
+
+> Full accuracy metrics and confusion matrices available in the notebook: `Milk Quality Prediction.ipynb`
+
+---
+
+## Problem & Impact
+
+| Challenge | Current Reality | MilkGuard Solution |
+|---|---|---|
+| Testing speed | Hours in a lab | Real-time inference |
+| Cost | Lab equipment required | Software only |
+| Accessibility | Urban labs only | Deployable at rural dairy level |
+| Scale | Manual sampling | Automated pipeline |
+
+**Future integration potential:** IoT sensors + mobile app at village dairy cooperatives — reducing both testing time and cost significantly (as noted in the press coverage).
+
+---
+
+## Features Analyzed
+
+- **Fat content** — primary adulteration indicator
+- **Color** — visual quality signal
+- **Odor** — spoilage detection
+- **Other physicochemical properties** — density, pH, turbidity
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/Drashti0913/Milk-Quality-Prediction-using-SVM-Decision-Tree-and-Random-Forest.git
+cd Milk-Quality-Prediction-using-SVM-Decision-Tree-and-Random-Forest
+
 pip install -r requirements.txt
-```
-Run the Project:
-```
-python main.py
+
+# Run the notebook
+jupyter notebook "Milk Quality Prediction.ipynb"
 ```
 
-## Usage
-Load and Preprocess Data:
-Import and preprocess milk quality data.
-Train Models:
-Train SVM, Decision Tree, and Random Forest models.
-Evaluate and Visualize:
-Evaluate model performance and visualize results.
+---
 
-## Contributing
-1. Fork the Repository
-2. Create a Feature Branch
-3. Commit Changes
-4. Push to the Branch
-5. Submit a Pull Request
+## Project Structure
+
+```
+├── Milk Quality Prediction.ipynb   # Full EDA, training, evaluation
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Publication
+
+**"Milk Quality Prediction Using Machine Learning"**
+Published in EBSCO · Indexed research journal
+Authors: Drashti Bhavsar, Yash Jobanputra
+Guided by: Prof. Debabrata Swain, PDEU
+
+---
+
+## Research Context
+
+This project was developed during undergrad at **Pandit Deendayal Energy University (PDEU)**, Gandhinagar, India. The motivation came directly from the FSSAI report highlighting widespread milk adulteration across India — a public health problem that disproportionately affects rural consumers who lack access to lab testing infrastructure.
+
+---
 
 ## License
-This project is licensed under the MIT License.
 
-## Contact
-Email: drashtibhavsar09@gmail.com
-
-LinkedIn: [Drashti09](https://www.linkedin.com/in/drashtibhavsar9/)
+MIT
