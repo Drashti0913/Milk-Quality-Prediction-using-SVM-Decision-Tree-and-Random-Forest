@@ -24,7 +24,7 @@ This project was **published (EBSCO)** and covered by **Gujarat Samachar**, one 
 > *"AI model developed by students can detect milk quality and adulteration — Computer Science Department students Drashti Bhavsar and Yash Jobanputra have built an AI device that rapidly checks milk quality, adulteration, fat, color, and odor properties."*
 > — **Gujarat Samachar** (Ahmedabad edition)
 
-<img width="747" height="500" alt="1adc904d-15fe-465e-80bb-b11d89e904a0" src="https://github.com/user-attachments/assets/4c46688a-a834-414c-b94a-d1ecf02d7b85" />
+<img width="300" height="500" alt="1adc904d-15fe-465e-80bb-b11d89e904a0" src="https://github.com/user-attachments/assets/4c46688a-a834-414c-b94a-d1ecf02d7b85" />
 
 
 ---
